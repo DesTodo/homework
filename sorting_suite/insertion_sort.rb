@@ -3,7 +3,6 @@ class InsertionSort
 
   def sort(unsorted)
       sorted = [unsorted.shift]
-      # unsorted.shift removes and returns the first value of the insorted list
       unsorted.each do |num|
 
           sorted_index = 0
